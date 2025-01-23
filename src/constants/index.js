@@ -28,13 +28,53 @@ export const navLinks = [
 
 export const myProjects = [
   {
+    title: "Multiplayer Poker",
+    desc: "Welcome to Poker Night - an online poker website where you and your friends can play, without the risk of entering any payment information. I felt the need to create this website because my friends and I spent many hours looking for a way to play online without entering our credit card information. At Poker Night, one can simply create a lobby, share the game code and play classic Texas Hold'em poker.",
+    subdesc: "Built using the MERN stack, Tailwind CSS, Redux, and Socket.io.",
+    href: "https://multiplayer-poker.onrender.com/",
+    texture: "/textures/project/project4.mov",
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "Node.js",
+        path: "/assets/nodejs.jpg",
+      },
+      {
+        id: 4,
+        name: "Express.js",
+        path: "/assets/expressjs.png",
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "/assets/mongodb.svg",
+      },
+      {
+        id: 6,
+        name: "Socket.io",
+        path: "/assets/socketio.png",
+      },
+    ],
+  },
+  {
     title: "BrewLab's Blog",
     desc: "BrewLab's Blog is an interactive blog all about coffee, tea and other comforting beverages. Users can log in and like and comment on their favorite posts. The website also features an admin dashboard that allows the admin to edit and delete posts, users, and commments.",
     subdesc:
       "Built using the MERN stack, Tailwind CSS, and Redux for complex state management.",
     href: "https://blog-dashboard-la6s.onrender.com/",
     texture: "/textures/project/project1.mov",
-    spotlight: "/assets/spotlight1.png",
+    spotlight: "/assets/spotlight2.png",
     tags: [
       {
         id: 1,
@@ -70,7 +110,7 @@ export const myProjects = [
       "Built using EJS, Node.js, Express.js, and Passport for authentication. ",
     href: "https://tomato-qrgo.onrender.com/",
     texture: "/textures/project/project2.mov",
-    spotlight: "/assets/spotlight2.png",
+    spotlight: "/assets/spotlight3.png",
     tags: [
       {
         id: 1,
@@ -101,7 +141,7 @@ export const myProjects = [
       "Built using the Spoonacular API, Bootstrap, Node.js and Express.js.",
     href: "https://meal-finder-sw2l.onrender.com/",
     texture: "/textures/project/project3.mov",
-    spotlight: "/assets/spotlight3.png",
+    spotlight: "/assets/spotlight4.png",
     tags: [
       {
         id: 1,
@@ -175,25 +215,34 @@ export const workExperiences = [
     pos: "Software Engineering Intern",
     duration: "May 2024 - Aug 2024",
     title:
-      "• Created a liquidity injector that used real-time market data to place orders in CME's test trading environment to train trading bots. Improved training performance by 14%.<br />• Worked on Application Network Graph (ANG) - an internal tool to visualize connectivity among different components. Added operations to clip nodes, reveal upstream and downstream trees, and download and upload graphs.<br />• Optimized ANG's code base and added test coverage, raising performance by 21%",
+      "• Created a liquidity injector by simulating real-time market orders for clients in CME’s test environment.<br />• Developed a Java-based subroutine on Google Cloud Kubernetes Engine (GKE) to sync internal and real-time order books and used Kafka for data injection.<br />• Built a graph visualizer using Vue.js to map system connectivity between business components, enabling improved analysis and troubleshooting of interdependencies.",
     icon: "/assets/cmegroup.jpg",
   },
   {
     id: 2,
-    name: "University of Illinois, Urbana-Champaign",
+    name: "Bretl Research Group at University of Illinois, Urbana-Champaign",
     pos: "Undergraduate Research Assistant",
     duration: "Aug 2024 - Present",
     title:
-      "• Researching the autonomous navigation of drones under Professor Timothy Bretl.<br />• Building a deep learning model to detect fiducial markers using thermal imaging using YOLO v8, corner regression, and decoders.",
+      "• Developed a deep learning model to detect fiducial markers in thermal imaging, leveraging YOLO v8 and corner regression to enhance accuracy in autonomous drone navigation.<br />• Optimized pose estimation inference time by 50% while maintaining 96% precision and recall, improving real-time performance.",
     icon: "/assets/uiuc.png",
   },
   {
     id: 3,
+    name: "University of Illinois, Urbana-Champaign ",
+    pos: "Course Assistant",
+    duration: "Aug 2024 - Present",
+    title:
+      "• Mentored students of CS 222 (Software Design Lab) through full software development lifecycle of ideation, design, implementation and deployment.<br />• Guided students in applying core software engineering principles, including version control, design patterns, and code quality, to real-world projects.<br />•Reviewed and provided feedback on project deliverables and provided technical support on project development.",
+    icon: "/assets/uiuc.png",
+  },
+  {
+    id: 4,
     name: "Prepbytes",
     pos: "Doubt Mentor Intern",
     duration: "May 2021 - Aug 2021",
     title:
-      "• Taught 1000+ undergraduate students concepts of Data Structures and Algorithms in various programming languages while in high school.<br />• Responsible for solving other students' doubts on problems in the numerous courses offered on the company's website",
+      "• Solved students' doubts about Data Structures and Algorithms across various courses offered by PrepBytes.<br />• Taught students topics ranging from trees, graphs to dynamic programming in Java, Python, and C/C++.",
     icon: "/assets/prepbytes.jpeg",
   },
 ];
