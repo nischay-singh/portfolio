@@ -165,6 +165,26 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: "Portfolio Optimization Machine Learning Model",
+    desc: "This project caclulates an optimal stock portfolio at the beginning of each month. We filter S&P500 stocks to include the top 150 most liquid stocks and then calculate techincal indicators like Garman-Klass Volatility, RSI, ATR, Bollinger Bands, MACD etc. We use these to clustger stocks into groups using an Unsupervised Learning K-Means Clustering Machine Learning Model which will form our portfolio for the following month.",
+    subdesc: "Built using Python, and Pandas.",
+    href: "https://github.com/nischay-singh/Trading-Portfolio-Optimization",
+    texture: "/textures/project/project5.mov",
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/pythonlogo.svg.png",
+      },
+      {
+        id: 2,
+        name: "Pandas",
+        path: "assets/pandas.png",
+      },
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
