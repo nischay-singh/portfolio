@@ -68,8 +68,8 @@ export const myProjects = [
     ],
   },
   {
-    title: "BrewLab's Blog",
-    desc: "BrewLab's Blog is an interactive blog all about coffee, tea and other comforting beverages. Users can log in and like and comment on their favorite posts. The website also features an admin dashboard that allows the admin to edit and delete posts, users, and commments.",
+    title: "Brew Blog",
+    desc: "Brew Blog is an interactive blog all about coffee, tea and other comforting beverages. Users can log in and like and comment on their favorite posts. The website also features an admin dashboard that allows the admin to edit and delete posts, users, and commments.",
     subdesc:
       "Built using the MERN stack, Tailwind CSS, and Redux for complex state management.",
     href: "https://blog-dashboard-la6s.onrender.com/",
@@ -182,6 +182,31 @@ export const myProjects = [
         id: 2,
         name: "Pandas",
         path: "assets/pandas.png",
+      },
+    ],
+  },
+  {
+    title: "High-Performance Trading Engine",
+    desc: "Built a high-performance C++ trading engine simulating real-time market behavior, with support for limit and market order execution, PnL tracking, and live order book updates. Developed an interactive Qt GUI to visualize order flow, trade history, and price trends. Ensured multithreaded safety for core components and validated reliability through comprehensive unit testing with CTest.",
+    subdesc: "Built using C++, Qt, and CMake.",
+    href: "https://github.com/nischay-singh/TradingEngine/",
+    texture: "/textures/project/project6.mov",
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      {
+        id: 1,
+        name: "C++",
+        path: "/assets/c++.png",
+      },
+      {
+        id: 2,
+        name: "Qt",
+        path: "assets/qt.png",
+      },
+      {
+        id: 3,
+        name: "CMake",
+        path: "assets/cmake.png",
       },
     ],
   },
